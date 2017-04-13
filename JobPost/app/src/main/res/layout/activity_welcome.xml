@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.welcome.jobpost.Welcome"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/experience3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="40dp"
+        android:background="#f1f1f1"
+        android:paddingTop="10dp">
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:orientation="vertical"
+      android:background="@drawable/border"
+      android:elevation="8dp"
+      android:padding="10dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="vertical"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="IT JOBS NEPAL"
+              android:textSize="25sp" />
+      </LinearLayout>
+
+
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2"
+         >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/txt_us"
+              android:text="User Name: "
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:layout_weight="1"
+              />
+
+
+          <EditText
+              android:id="@+id/ed_us"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2">
+
+          <TextView
+              android:id="@+id/txt_pw"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="Password:"
+              android:textSize="20sp"
+              android:textStyle="bold" />
+
+          <EditText
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:password="true"
+              android:id="@+id/ed_pw"
+              android:layout_weight="1"/>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2">
+
+          <Button
+              android:id="@+id/btn_jobseeker"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Job Seeker Login"
+              android:layout_weight="1"
+              android:background="@drawable/button"
+              style="@style/ButtonColor"/>
+
+          <Button
+              android:id="@+id/btn_employer"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Company Login "
+              android:layout_weight="1"
+              android:background="@drawable/button"
+              style="@style/ButtonColor"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2"
+          >
+
+          <Button
+              android:id="@+id/btn_jobseekerSignup"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Job Seeker Sign Up"
+              android:layout_weight="1"
+              android:background="@drawable/button"
+              style="@style/ButtonColor"/>
+
+          <Button
+              android:id="@+id/btn_employerSignup"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="Company SignUp "
+              android:background="@drawable/button"
+              style="@style/ButtonColor"
+
+              />
+      </LinearLayout>
+
+  </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

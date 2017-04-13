@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.welcome.jobpost">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JobSeeker" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".SignUpCompany" />
+        <activity android:name=".SignUpJobSeeker" />
+        <activity android:name=".JobLogedInPage" />
+        <activity android:name=".Education" />
+        <activity android:name=".Experince" />
+        <activity android:name=".CV" />
+        <activity android:name=".Jobs" />
+        <activity android:name=".CompanyProfilePage" />
+        <activity android:name=".CompanyLogedInPage" />
+        <activity android:name=".CompanyJobs" />
+        <activity android:name=".SelectedCandidates" />
+        <activity android:name=".DatabaseShowTime" />
+    </application>
+
+</manifest>
